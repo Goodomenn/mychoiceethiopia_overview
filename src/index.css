@@ -1,0 +1,115 @@
+/* Global CSS & Tactile Paper System */
+:root {
+  --cream-50: #FAF7F0;
+  --cream-100: #F4EFE6;
+  --cream-200: #EDE4D5;
+  --cream-300: #DFD4C2;
+  --cream-400: #C7BAA5;
+  --cream-500: #B0A28C;
+
+  --terracotta-400: #E86C53;
+  --terracotta-500: #D9593D;
+  --terracotta-600: #C04830;
+  --terracotta-700: #9C3824;
+
+  --ink-600: #3B545B;
+  --ink-700: #284249;
+  --ink-800: #192F35;
+  --ink-900: #112126;
+  --ink-950: #0A1518;
+
+  --sage-300: #ADC0AF;
+  --sage-400: #93A895;
+  --sage-500: #788D79;
+  --sage-600: #5B705C;
+
+  --amber-400: #D4A359;
+  --amber-500: #C18C46;
+  --amber-600: #A97433;
+
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-mono: 'Space Mono', monospace;
+  --font-typewriter: 'Courier Prime', Courier, monospace;
+  --font-sans: 'Plus Jakarta Sans', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--cream-100);
+  color: var(--ink-800);
+  font-family: var(--font-sans);
+  line-height: 1.5;
+  min-height: 100vh;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Cotton Handmade Paper Texture Canvas */
+.paper-texture-canvas {
+  position: fixed;
+  inset: 0;
+  background-image: url('/paper-texture.png');
+  background-repeat: repeat;
+  background-size: 360px auto;
+  opacity: 0.65;
+  mix-blend-mode: multiply;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Secondary Micro-Grain Dot Overlay */
+.paper-grain-overlay {
+  position: fixed;
+  inset: 0;
+  background-image: radial-gradient(var(--ink-800) 0.4px, transparent 0.4px);
+  background-size: 16px 16px;
+  opacity: 0.035;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: var(--cream-100);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--cream-300);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--cream-400);
+}
+
+/* Utility classes */
+.container {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.border-paper-dotted {
+  border-bottom: 2px dotted #D5C7B2;
+}
+
+.text-stencil-repeat {
+  font-family: var(--font-display);
+  font-weight: 900;
+  line-height: 0.88;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
