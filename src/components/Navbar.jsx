@@ -6,10 +6,15 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const location = useLocation();
 
+  // Flag: Expeditions and Corporate Fleet are preserved in codebase but hidden from UI for now
+  const SHOW_FLEET_AND_TOURS = false;
+
   const navLinks = [
     { name: 'HOME', path: '/' },
-    { name: 'CORPORATE FLEET', path: '/corporate-fleet' },
-    { name: 'EXPEDITIONS', path: '/tours' },
+    ...(SHOW_FLEET_AND_TOURS ? [
+      { name: 'CORPORATE FLEET', path: '/corporate-fleet' },
+      { name: 'EXPEDITIONS', path: '/tours' }
+    ] : []),
     { name: 'SUBSIDIARIES', path: '/subsidiaries' },
     { name: 'GOVERNANCE', path: '/governance' },
     { name: 'ABOUT US', path: '/about' },
@@ -28,7 +33,7 @@ export default function Navbar() {
           </div>
           <div className="brand-text-block">
             <span className="brand-primary-name">MYCHOICE</span>
-            <span className="brand-tagline">EXPEDITIONS &amp; FLEET LOGISTICS</span>
+            <span className="brand-tagline">AGRICULTURE &amp; COMMODITIES</span>
           </div>
         </Link>
 
@@ -52,12 +57,12 @@ export default function Navbar() {
             <a href="tel:+251116689021" className="phone-number">+251 (11) 668-9021</a>
           </div>
           <a 
-            href="https://mychoiceethiopia.vercel.app/" 
+            href="https://mychoice2.vercel.app/" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="header-rfq-pill"
           >
-            PORTAL ↗
+            AGRICULTURE PORTAL ↗
           </a>
         </div>
 
@@ -91,21 +96,11 @@ export default function Navbar() {
                 <a href="tel:+251116689021">+251 (11) 668-9021</a>
               </div>
               <a
-                href="https://mychoiceethiopia.vercel.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={() => setMenuOpen(false)}
-                className="btn-solid-red full-width"
-              >
-                LAUNCH FLEET &amp; TOUR PORTAL ↗
-              </a>
-              <a
                 href="https://mychoice2.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setMenuOpen(false)}
                 className="btn-solid-gold full-width"
-                style={{ marginTop: '0.5rem' }}
               >
                 LAUNCH AGRICULTURE PORTAL ↗
               </a>

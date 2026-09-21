@@ -29,16 +29,6 @@ export default function Footer() {
           <ul className="footer-ul">
             <li><Link to="/">Home &amp; Map Trail</Link></li>
             <li>
-              <a href="https://mychoiceethiopia.vercel.app/" target="_blank" rel="noopener noreferrer">
-                B2B Corporate &amp; NGO Fleet ↗
-              </a>
-            </li>
-            <li>
-              <a href="https://mychoiceethiopia.vercel.app/" target="_blank" rel="noopener noreferrer">
-                Expeditions &amp; Itineraries ↗
-              </a>
-            </li>
-            <li>
               <a href="https://mychoice2.vercel.app/" target="_blank" rel="noopener noreferrer">
                 Local Crop Supply (Corn, Cotton, Sorghum, Sunflower, Masho) ↗
               </a>
@@ -86,10 +76,7 @@ export default function Footer() {
         <div className="trail-container footer-bottom-inner">
           <span>&copy; 2026 MyChoice Ethiopia Tour &amp; Fleet Operations. All Rights Reserved.</span>
           <div className="footer-sub-links">
-            <a href="https://mychoiceethiopia.vercel.app/" target="_blank" rel="noopener noreferrer">
-              Tours &amp; Fleet Portal ↗
-            </a>
-            <span className="dot">•</span>
+
             <a href="https://mychoice2.vercel.app/" target="_blank" rel="noopener noreferrer">
               Agriculture Portal ↗
             </a>

@@ -89,16 +89,19 @@ export default function About() {
                 </strong> Agricultural enterprise specializing in the supply and export of key local crops: Corn (Maize), raw Cotton, Sorghum, Sunflower oilseeds, and clean Masho (Green Mung Beans) sourced directly from regional farming networks.
               </div>
             </div>
-            <div className="key-point-item">
-              <CheckCircle className="point-icon" size={18} />
-              <div>
-                <strong>
-                  <a href="https://mychoiceethiopia.vercel.app/" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>
-                    MyChoice Tours &amp; Corporate Fleet (Live Web Portal ↗)
-                  </a>:
-                </strong> Dual-funnel leisure expeditions and B2B heavy-duty Toyota Land Cruiser fleet leasing for UN agencies, embassies, and developmental NGOs.
+{/* Hidden from layout for now per user request */}
+            {false && (
+              <div className="key-point-item">
+                <CheckCircle className="point-icon" size={18} />
+                <div>
+                  <strong>
+                    <a href="https://mychoiceethiopia.vercel.app/" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>
+                      MyChoice Tours &amp; Corporate Fleet (Live Web Portal ↗)
+                    </a>:
+                  </strong> Dual-funnel leisure expeditions and B2B heavy-duty Toyota Land Cruiser fleet leasing for UN agencies, embassies, and developmental NGOs.
+                </div>
               </div>
-            </div>
+            )}
           </div>
 
         </div>

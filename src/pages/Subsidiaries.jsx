@@ -63,7 +63,8 @@ export default function Subsidiaries() {
 
       {/* Main Subsidiaries Detailed Showcase */}
       <section className="trail-container sub-showcase-grid">
-        {websites.map((sub, idx) => (
+        {/* Preserving full websites array, but hiding fleet/tours from layout for now */}
+        {websites.filter(sub => sub.id === 'access-ethiopia').map((sub, idx) => (
           <div key={sub.id} className="sub-detail-card">
             <a 
               href={sub.webUrl} 
