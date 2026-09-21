@@ -190,7 +190,7 @@ export default function Home() {
                     <option value="mekelle">Mekelle Hub — Gheralta Rock Churches</option>
                     <option value="addis">Addis Ababa HQ — Diplomatic &amp; Nationwide</option>
                     <option value="lalibela">Historic Lalibela &amp; Simien Treks</option>
-                    <option value="yirgacheffe">Yirgacheffe &amp; Sidamo Coffee Belt</option>
+                    <option value="yirgacheffe">Corn, Cotton &amp; Sorghum Agricultural Belts</option>
                   </select>
                 </div>
               </div>
@@ -207,8 +207,8 @@ export default function Home() {
                   >
                     <option value="tours">B2C Adventure Expeditions (Tours)</option>
                     <option value="fleet">B2B UN/NGO Fleet Leasing</option>
-                    <option value="commodities">Access Ethiopia Agriculture (Coffee)</option>
-                    <option value="commodities">Access Ethiopia Agriculture (Sesame &amp; Pulses)</option>
+                    <option value="commodities">Local Crops (Corn &amp; Cotton Supply)</option>
+                    <option value="commodities">Local Crops (Sorghum, Sunflower &amp; Masho)</option>
                   </select>
                 </div>
               </div>
@@ -331,7 +331,7 @@ export default function Home() {
           <div id="stop-commodities" className="trail-stop-row stop-right-photo">
             <div className="stop-content-col">
               <div className="watermark-heading-wrap">
-                <span className="gold-script-watermark">Organic Agriculture</span>
+                <span className="gold-script-watermark">Local Crop Supply & Export</span>
                 <h3 className="stop-venture-title">
                   MYCHOICE SUSTAINABLE AGRICULTURE &amp; EXPORT
                 </h3>
@@ -339,16 +339,16 @@ export default function Home() {
 
               <div className="stop-meta-list">
                 <div className="meta-line">
-                  <span className="meta-label">Highland Agriculture:</span>
-                  <span className="meta-val">Shade-grown organic Arabica coffee from Yirgacheffe, Sidamo, and Guji volcanic soils.</span>
+                  <span className="meta-label">Cereals &amp; Grains:</span>
+                  <span className="meta-val">High-grade Corn (Maize) and drought-resilient Sorghum harvested directly from prime domestic farming belts.</span>
                 </div>
                 <div className="meta-line">
-                  <span className="meta-label">Oilseeds &amp; Pulses:</span>
-                  <span className="meta-val">Humera Sortex-cleaned white sesame (99.5% purity), chickpeas, and red kidney beans.</span>
+                  <span className="meta-label">Fibers &amp; Oilseeds:</span>
+                  <span className="meta-val">Pure raw Cotton fiber and high-yield Sunflower seeds processed for domestic mills and international buyers.</span>
                 </div>
                 <div className="meta-line">
-                  <span className="meta-label">Farmer Cooperatives:</span>
-                  <span className="meta-val">Direct partnerships with 12,000+ smallholder farming families with full batch traceability.</span>
+                  <span className="meta-label">Export Pulses:</span>
+                  <span className="meta-val">Sortex-cleaned Masho (Green Mung Beans) sourced directly from regional farmer grower networks.</span>
                 </div>
               </div>
 

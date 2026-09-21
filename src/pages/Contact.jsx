@@ -225,7 +225,7 @@ export default function Contact() {
                     >
                       <option value="fleet">B2B NGO / UN Fleet Leasing (30-Day Credit, VAT #80692)</option>
                       <option value="tours">B2C Adventure Expeditions (Danakil, Gheralta, Lalibela)</option>
-                      <option value="commodities">Access Ethiopia Agricultural Export (Coffee, Sesame)</option>
+                      <option value="commodities">Access Ethiopia Crop Supply (Corn, Cotton, Sorghum, Sunflower, Masho)</option>
                       <option value="governance">Corporate Governance &amp; Tender Pre-Qualification</option>
                     </select>
                   </div>

@@ -40,7 +40,7 @@ export default function Footer() {
             </li>
             <li>
               <a href="https://mychoice2.vercel.app/" target="_blank" rel="noopener noreferrer">
-                Agriculture &amp; Agro-Export ↗
+                Local Crop Supply (Corn, Cotton, Sorghum, Sunflower, Masho) ↗
               </a>
             </li>
             <li><Link to="/subsidiaries">Subsidiaries Directory</Link></li>

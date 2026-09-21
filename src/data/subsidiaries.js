@@ -7,13 +7,13 @@ export const SUBSIDIARIES = {
     division: 'Agro Commodity Export & Processing',
     badge: 'Agro Export',
     status: 'ISO 22000 & HACCP Certified',
-    desc: 'Specialty coffee and oilseed export powerhouse operating integrated washing stations across Yirgacheffe, Sidamo, and Humera. Supplies 25,000+ metric tons of agricultural commodities to 35+ international maritime ports.',
+    desc: 'Leading local crop supply and export enterprise specializing in Corn (Maize), raw Cotton, Sorghum, Sunflower seeds, and Masho (green mung beans) sourced directly from regional Ethiopian agricultural cooperatives.',
     entity: 'Ela Trading PLC (Reg #14/666/128419/2005)',
     webUrl: 'https://mychoice2.vercel.app/',
     localUrl: 'file:///C:/Users/ASUS%20VIVOBOOK/.gemini/antigravity/scratch/ela-trading-website/index.html',
     heroImg: '/images/crop-harvest.jpg',
     specs: [
-      { k: 'Primary Commodities', v: 'Arabica Coffee G1, Humera Sesame, Turmeric' },
+      { k: 'Primary Commodities', v: 'Corn, Cotton, Sorghum, Sunflower, Masho' },
       { k: 'Annual Export Scale', v: '25,000+ Metric Tons' },
       { k: 'Processing Facilities', v: 'Optical Sortex & Mechanical Cleaning Plant' },
       { k: 'Shipping Terms', v: 'Djibouti Port FOB / Worldwide CIF' }

@@ -86,7 +86,7 @@ export default function About() {
                   <a href="https://mychoice2.vercel.app/" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>
                     Access Ethiopia Commodities (Live Web Portal ↗)
                   </a>:
-                </strong> Agricultural export enterprise cultivating and exporting organic Arabica coffee from Yirgacheffe and Sidamo, alongside Sortex-grade Humera sesame seeds and pulses with 12,000+ farmer cooperative partners.
+                </strong> Agricultural enterprise specializing in the supply and export of key local crops: Corn (Maize), raw Cotton, Sorghum, Sunflower oilseeds, and clean Masho (Green Mung Beans) sourced directly from regional farming networks.
               </div>
             </div>
             <div className="key-point-item">

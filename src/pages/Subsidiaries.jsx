@@ -28,15 +28,15 @@ export default function Subsidiaries() {
     {
       id: 'access-ethiopia',
       folder: 'D:\\neh\\MyChoice\\mychoice2',
-      title: 'Access Ethiopia — Sustainable Agriculture & Global Agro-Export',
-      tagline: 'Organic Highland Coffee Agriculture, Oilseeds, Pulses & Global Trade',
+      title: 'Access Ethiopia — Sustainable Agriculture & Crop Supply',
+      tagline: 'Corn, Cotton, Sorghum, Sunflower & Masho Domestic Supply & Export',
       heroImg: '/images/crop-harvest.jpg',
-      summary: 'Premier agricultural enterprise partnering with smallholder farming cooperatives to cultivate, harvest, and export organic Arabica coffee, Sortex sesame, and legumes worldwide.',
+      summary: 'Premier agricultural enterprise specializing in the supply and export of essential local crops: high-grade Corn, natural Cotton, Sorghum, Sunflower oilseeds, and clean Masho (green mung beans) sourced directly from regional farming networks.',
       pillars: [
-        { title: 'Premium Green Coffee', desc: 'Organic shade-grown Arabica from Sidama, Yirgacheffe, Guji, and Harar with SCA cupping scores 86+.' },
-        { title: 'Humera White Sesame', desc: 'High oil-content natural sesame sortex cleaned to 99.5% export purity for international confectioneries.' },
-        { title: 'Nutritious Pulses', desc: 'Chickpeas, red speckled kidney beans, and mung beans processed in modern hygienic cleaning plants.' },
-        { title: '50K+ MT Capacity', desc: 'Integrated supply chain with direct farmer cooperative partnerships and Djibouti Port logistics.' }
+        { title: 'Corn (Maize) & Sorghum', desc: 'High-energy white and yellow corn, paired with drought-hardy Ethiopian sorghum supplied for food and feed.' },
+        { title: 'Raw Cotton Fiber', desc: 'Naturally harvested clean raw cotton lint and fiber for textile industries and international commerce.' },
+        { title: 'Sunflower Oilseeds', desc: 'High-oil yield sunflower seeds cultivated in rich domestic soils for pressing and food processing.' },
+        { title: 'Masho (Green Mung Beans)', desc: 'Clean, sortex-processed Masho with high purity, protein content, and full batch origin traceability.' }
       ],
       stats: [
         { label: 'Global Trade', value: '15+ Years' },
