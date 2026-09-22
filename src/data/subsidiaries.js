@@ -87,9 +87,9 @@ export const SUBSIDIARIES = {
   mychoice: {
     id: 'mychoice',
     key: 'mychoice',
-    name: 'MyChoice Ethiopia (MyChoice)',
-    division: 'UN/NGO Fleet Leasing & Expeditions',
-    badge: 'Fleet & Tours',
+    name: 'MyChoice Ethiopia (Tour Planning & Expeditions)',
+    division: 'Tour Planning & Expeditions',
+    badge: 'Tour Planning',
     status: 'VAT #80692 • SIGTAS Active',
     desc: 'Leading institutional fleet contractor providing heavy-duty Toyota Land Cruisers, 17 Grade-8 certified drivers, and 30-day post-paid credit facilities to UN agencies, diplomatic missions, and international NGOs.',
     entity: 'MyChoice Ethiopia / MyChoice Fleet (VAT #80692)',

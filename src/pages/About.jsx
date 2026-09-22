@@ -87,12 +87,22 @@ export default function About() {
             </div>
           </div>
 
-          {/* Sister Companies */}
-          <h3 className="about-sub-heading">Sister Ventures &amp; Agricultural Expansion</h3>
+                    {/* Sister Companies */}
+          <h3 className="about-sub-heading">Sister Ventures &amp; Enterprise Platforms</h3>
           <p className="about-paragraph">
             The group leverages multi-industry operational capabilities that reinforce each division:
           </p>
           <div className="about-key-points">
+            <div className="key-point-item">
+              <CheckCircle className="point-icon" size={18} />
+              <div>
+                <strong>
+                  <a href="https://mychoiceethiopia.vercel.app/" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>
+                    MyChoice Ethiopia Tour Planning &amp; Expeditions (Live Web Portal ↗)
+                  </a>:
+                </strong> Premier travel and tour planning platform coordinating bespoke itineraries, licensed cultural guides, and wilderness expeditions across all Ethiopian regions.
+              </div>
+            </div>
             <div className="key-point-item">
               <CheckCircle className="point-icon" size={18} />
               <div>
@@ -104,7 +114,6 @@ export default function About() {
               </div>
             </div>
           </div>
-
         </div>
 
         {/* Legal Credentials Card */}

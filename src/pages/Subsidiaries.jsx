@@ -7,19 +7,19 @@ export default function Subsidiaries() {
     {
       id: 'mychoice-ethiopia',
       folder: 'D:\\neh\\MyChoice\\client',
-      title: 'MyChoice Ethiopia — Expeditions & Corporate Fleet',
-      tagline: 'Dual-Funnel Leisure Expeditions & B2B Institutional Fleet Leasing',
+      title: 'MyChoice Ethiopia — Tour Planning & Expeditions',
+      tagline: 'Custom Tailored Itineraries, Cultural Journeys & Tour Planning Across Ethiopia',
       heroImg: 'https://images.unsplash.com/photo-1510312305653-8ed496efae75?auto=format&fit=crop&w=800&q=80',
-      summary: 'A state-of-the-art platform servicing international leisure travelers and diplomatic/NGO organizations across Ethiopia.',
+      summary: 'A premier tour planning and expedition platform servicing international travelers, cultural explorers, and organizations with bespoke itinerary creation, licensed guides, and seamless nationwide logistics across Ethiopia.',
       pillars: [
-        { title: 'B2C Leisure Expeditions', desc: 'Curated journeys to Lalibela, Simien Mountains, Danakil, and Omo Valley with bilingual guides and luxury 4x4 transport.' },
-        { title: 'B2B Fleet Leasing', desc: 'Heavy-duty Toyota Land Cruiser 4x4 (HZJ76/78, Prado, V8, Coasters) outfitted with GPS, winches, and trauma kits.' },
-        { title: '17 Grade-8 Drivers', desc: 'Multilingual off-road chauffeurs trained in defensive driving and mechanical field literacy.' },
-        { title: '30-Day Credit Facility', desc: 'Standardized post-paid credit terms with electronic VAT #80692 invoicing for UN agencies and international NGOs.' }
+        { title: 'Curated Tour Planning', desc: 'Custom-tailored itineraries covering historic Lalibela rock churches, Simien Mountains trekking, Danakil Depression volcano trails, and authentic Omo Valley cultural encounters.' },
+        { title: 'Expedition Transport & 4x4s', desc: 'Field-ready 4x4 safari vehicles outfitted with air conditioning, GPS tracking, winches, and trauma first-aid kits for all terrains.' },
+        { title: 'Licensed Professional Guides', desc: 'Multilingual tour leaders and local community scouts delivering deep historical interpretation, exceptional safety, and local cultural courtesy.' },
+        { title: 'End-to-End Travel Logistics', desc: 'Domestic flight booking coordination, boutique lodge arrangements, camping gear deployment, permits, and 24/7 dispatch desk assistance.' }
       ],
       stats: [
-        { label: 'Operating Excellence', value: '12+ Years' },
-        { label: 'Certified Drivers', value: '17 Grade-8' },
+        { label: 'Operating Excellence', value: '14+ Years' },
+        { label: 'Tour Destinations', value: 'All Ethiopian Corridors' },
         { label: 'Regional Hubs', value: 'Addis • Semera • Mekelle' }
       ],
       webUrl: 'https://mychoiceethiopia.vercel.app/',
@@ -56,15 +56,14 @@ export default function Subsidiaries() {
           <span className="gold-script-tag">Enterprise Ecosystem</span>
           <h1 className="sub-page-title">OUR SUBSIDIARIES &amp; VENTURES</h1>
           <p className="sub-page-lead">
-            Direct gateways to the two core enterprise digital platforms uniting international adventure travel with certified global agricultural commodity trade.
+            Direct gateways to the two core enterprise digital platforms uniting international adventure travel, tour planning, and certified agricultural commodity trade.
           </p>
         </div>
       </section>
 
       {/* Main Subsidiaries Detailed Showcase */}
       <section className="trail-container sub-showcase-grid">
-        {/* Preserving full websites array, but hiding fleet/tours from layout for now */}
-        {websites.filter(sub => sub.id === 'access-ethiopia').map((sub, idx) => (
+        {websites.map((sub, idx) => (
           <div key={sub.id} className="sub-detail-card">
             <a 
               href={sub.webUrl} 
@@ -73,7 +72,7 @@ export default function Subsidiaries() {
               className="sub-card-hero-img group"
             >
               <img src={sub.heroImg} alt={sub.title} />
-              <div className="sub-card-img-badge">0{idx + 1} • {sub.id === 'mychoice-ethiopia' ? 'Expeditions & Fleet' : 'Agro Agriculture'}</div>
+              <div className="sub-card-img-badge">0{idx + 1} • {sub.id === 'mychoice-ethiopia' ? 'Tour Planning & Expeditions' : 'Agro Agriculture'}</div>
               <div className="sub-photo-hover-pill">
                 Open Live Web Portal <ExternalLink size={12} />
               </div>
