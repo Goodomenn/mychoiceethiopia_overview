@@ -104,27 +104,29 @@ export default function Home() {
                 </div>
               </a>
 
-              {/* Card 2: Enterprise Ecosystem Directory */}
-              <Link 
-                to="/subsidiaries" 
+              {/* Card 2: Direct Tour & Expeditions Portal */}
+              <a 
+                href="https://mychoiceethiopia.vercel.app/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
                 className="funnel-card b2b-funnel group"
               >
                 <div className="funnel-card-header">
-                  <span className="funnel-tag b2b-tag">ENTERPRISE ECOSYSTEM</span>
-                  <span className="funnel-arrow">➔</span>
+                  <span className="funnel-tag b2b-tag">TOUR PLANNING &amp; EXPEDITIONS</span>
+                  <span className="funnel-arrow">↗</span>
                 </div>
-                <h3 className="funnel-title">Explore Subsidiaries &amp; Trade Hubs</h3>
+                <h3 className="funnel-title">MyChoice Ethiopia Tour &amp; Travel Portal</h3>
                 <p className="funnel-desc">
-                  Inspect our agricultural facilities, supply networks, legal trade certifications, and regional branch infrastructure spanning Addis Ababa, Semera, and Mekelle.
+                  Curated cultural journeys, bespoke itineraries, certified guides, and adventure expeditions covering Lalibela, Simien Mountains, Danakil Depression, and nationwide travel logistics.
                 </p>
                 <div className="funnel-features">
-                  <span>📄 Trade License Validated</span>
-                  <span>🛡️ Full Traceability</span>
-                  <span style={{ marginLeft: 'auto', display: 'flex', alignItems: 'center', gap: '3px' }}>
-                    Directory ➔
+                  <span>🗺️ Curated Routes</span>
+                  <span>⭐ Licensed Tour Guides</span>
+                  <span style={{ marginLeft: 'auto', display: 'flex', alignItems: 'center', gap: '3px', color: 'var(--warm-gold)', fontWeight: 600 }}>
+                    Open Tour Portal <ExternalLink size={12} />
                   </span>
                 </div>
-              </Link>
+              </a>
 
               {/* Preserved Code for Expeditions and Fleet Funnels (Hidden from layout for now) */}
               {SHOW_FLEET_AND_TOURS && (
@@ -435,6 +437,14 @@ export default function Home() {
                 className="btn-solid-gold"
               >
                 Agriculture Export Portal ↗
+              </a>
+              <a 
+                href="https://mychoiceethiopia.vercel.app/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="btn-solid-gold"
+              >
+                Tours &amp; Expeditions Portal ↗
               </a>
               <Link 
                 to="/subsidiaries" 
