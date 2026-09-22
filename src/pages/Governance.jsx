@@ -48,28 +48,39 @@ Employees or external partners who report suspected violations in good faith are
     },
     {
       id: 'code-of-conduct',
-      title: 'Employee & Chauffeur Code of Conduct',
+      title: 'Employee Code of Conduct Policy',
       code: 'MCE-HR-02',
-      version: 'v3.8 / 2026',
+      version: 'v4.0 / 2026',
       icon: HeartHandshake,
-      summary: 'Codifies our unwavering commitment to human dignity, gender equality, workplace professionalism, and cultural respect across all operational regions. Every member of our 32-person team and 17 Grade-8 chauffeurs is bound by rigorous behavioral standards, ensuring respectful, safe, and collaborative partnerships with local communities and institutional clients.',
+      summary: "Our Employee Code of Conduct company policy outlines our expectations regarding employees' behavior towards their colleagues, supervisors and overall organization. We promote freedom of expression and open communication. But we expect all employees to follow our code of conduct. They should avoid offending, participating in serious disputes and disrupting our workplace. We also expect them to foster a well-organized, respectful and collaborative environment.",
       keyPillars: [
-        'Strict prohibition of discrimination, harassment, or intimidation based on gender, ethnicity, religion, or nationality.',
-        'Zero-tolerance policy on alcohol or narcotics consumption prior to or during vehicle operations, subject to immediate dismissal.',
-        'Mandatory compliance with Child Safeguarding and Protection Protocols across all tourist and humanitarian transit routes.',
-        'Respect for local customs, community elders, and religious traditions in Afar, Tigray, Amhara, and Southern nations.'
+        "Promotion of freedom of expression and respectful, open communication across all departments.",
+        "Strict prohibition of offending, participating in serious workplace disputes, or disrupting operations.",
+        "Fostering a well-organized, respectful, collaborative, and ethical work environment.",
+        "Unconditional application to all company employees regardless of employment agreement or rank."
       ],
-      fullText: `1. CORE ETHOS & DIGNITY
-At MyChoice Ethiopia, our team members are the direct ambassadors of our enterprise. We hold ourselves to exemplary standards of professionalism, integrity, and mutual respect.
+      fullText: `5. POLICIES
+5.1. EMPLOYEE CODE OF CONDUCT POLICY
 
-2. SAFEGUARDING & HUMAN RIGHTS
-We adhere strictly to international human rights standards. All personnel are strictly forbidden from engaging in exploitative behavior, harassment, or human rights violations. Our drivers undergo specialized Child Safeguarding training to prevent exploitation along travel corridors.
+BRIEF & PURPOSE
+Our Employee Code of Conduct company policy outlines our expectations regarding employees' behavior towards their colleagues, supervisors and overall organization. We promote freedom of expression and open communication. But we expect all employees to follow our code of conduct. They should avoid offending, participating in serious disputes and disrupting our workplace. We also expect them to foster a well-organized, respectful and collaborative environment.
 
-3. SUBSTANCE ZERO TOLERANCE
-Commercial driving requires unimpaired cognitive and physical faculties. The consumption or possession of alcohol, khat, or narcotics while on duty, in company vehicles, or within 12 hours prior to scheduled duty is strictly prohibited and grounds for immediate termination without severance.
+SCOPE
+This policy applies to all our employees regardless of employment agreement or rank.
 
-4. ROAD COURTESY & PROFESSIONAL PROTOCOL
-Drivers must maintain clean vehicle cabins, adhere strictly to speed regulations (maximum 80 km/h on unpaved gravel trails), maintain passenger discretion, and assist passengers with courtesy and dignity.`
+OUR OBJECTIVES
+• Expansion of the vehicle rental service and tour activities business model.
+• Expansion of Agriculture production.
+• Providing high quality service that meets international standards up on the demands and expectations of our customers.
+• Focusing on the values we offer to our customers.
+
+OUR GOALS
+We set our goals knowing that we are capable of achieving them by adopting the program of giving emphasis to the green environment commitments. The concern that we have regarding our environment is deeper into our operations so as to benefit our fragile ecology and the society taking into account our social responsibilities.
+We are putting our effort into improving the wellbeing and safety of our employees, maintain the highest international standards, and we value working with like-minded partners to reduce negative environmental impacts on our environment and to promote our operational sustainability.
+
+OUR VISION
+My Choice Ethiopia Tour is a preferred company for customers in Ethiopia and foreign companies, individuals as well as other entities.
+Our company to become pioneer and world class comprehensive vehicle rent and tourism service provider and earn the administration of investors, customers, employees, government and community at large. And our company has a vision through to be one of the biggest, reliable and attractive companies in East Africa and to offer a superior world class quality service especially in Ethiopia.`
     },
     {
       id: 'environmental-sustainability',

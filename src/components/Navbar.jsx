@@ -54,7 +54,7 @@ export default function Navbar() {
         <div className="header-contact">
           <div className="phone-wrapper">
             <Phone size={13} className="phone-icon" />
-            <a href="tel:+251116689021" className="phone-number">+251 (11) 668-9021</a>
+            <a href="tel:+251116675776" className="phone-number">+251-116-67-57-76</a>
           </div>
           <a 
             href="https://mychoice2.vercel.app/" 
@@ -93,7 +93,7 @@ export default function Navbar() {
             <div className="mobile-drawer-contact">
               <div className="mobile-tel">
                 <Phone size={14} />
-                <a href="tel:+251116689021">+251 (11) 668-9021</a>
+                <a href="tel:+251116675776">+251-116-67-57-76</a>
               </div>
               <a
                 href="https://mychoice2.vercel.app/"

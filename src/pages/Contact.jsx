@@ -9,7 +9,8 @@ import {
   ShieldCheck, 
   Lock,
   Building,
-  UserCheck
+  UserCheck,
+  Briefcase
 } from 'lucide-react';
 
 export default function Contact() {
@@ -19,7 +20,7 @@ export default function Contact() {
     org: '',
     email: '',
     phone: '',
-    hub: 'addis',
+    hub: 'yeka',
     inquiryType: 'commodities',
     message: ''
   });
@@ -29,16 +30,46 @@ export default function Contact() {
     setSubmitted(true);
   };
 
+  const personnelList = [
+    {
+      roleNum: '01',
+      category: 'Principal Contact Person',
+      name: 'Teklay Mengesha',
+      title: 'Vice Manager',
+      office: '+251-116-67-57-76',
+      mobile: '+251-929-92-31-31 / +251-941-61-65-61/62',
+      email: 'mychoiceethiopia@gmail.com'
+    },
+    {
+      roleNum: '02',
+      category: 'Contact Person',
+      name: 'Pukiler Birhanu',
+      title: 'Logistics Officer',
+      office: '+251-116-67-57-76',
+      mobile: '+251-941-61-65-61/62',
+      email: 'mychoiceethiopia@gmail.com'
+    },
+    {
+      roleNum: '03',
+      category: 'Contact for Mekelle & Afar Office',
+      name: 'Samsom Halefom',
+      title: 'Logistics Officer',
+      office: 'Regional Branch Direct',
+      mobile: '+251-902-41-11-41',
+      email: 'mychoiceethiopia@gmail.com'
+    }
+  ];
+
   return (
     <div className="contact-page-wrapper">
       
       {/* Page Hero */}
       <section className="sub-page-hero">
         <div className="trail-container">
-          <span className="gold-script-tag">Direct Regional Dispatch</span>
+          <span className="gold-script-tag">Direct Regional Dispatch &amp; Officers</span>
           <h1 className="sub-page-title">CONTACT MYCHOICE ETHIOPIA</h1>
           <p className="sub-page-lead">
-            Connect directly with our headquarters in Addis Ababa or our dedicated regional staging offices in Semera (Afar) and Mekelle (Tigray).
+            Reach our Head Office in Addis Ababa or our regional branch offices in Semera (Afar) and Kedamay Woyane (Mekelle).
           </p>
         </div>
       </section>
@@ -49,79 +80,103 @@ export default function Contact() {
         {/* Left Column: Regional Branch Cards & Role Contacts */}
         <div className="contact-info-col">
           
-          {/* Branch 1: Addis Ababa HQ */}
+          {/* Branch 1: Head Office – Yeka Sub City */}
           <div className="branch-contact-card">
-            <div className="branch-badge">GROUP HEADQUARTERS</div>
-            <h3 className="branch-title">Addis Ababa Head Office</h3>
+            <div className="branch-badge">HEAD OFFICE • ADDIS ABABA</div>
+            <h3 className="branch-title">1. Head Office – Yeka Sub City</h3>
             <div className="branch-details-list">
               <div className="b-item">
                 <MapPin size={16} className="b-icon" />
-                <span>MyChoice Building, Bole Sub-City, Skylight Corridor, Addis Ababa, Ethiopia</span>
+                <span>Woreda 09, Gurdsholla, Dawit Building, 3rd Floor, Room 303/304, Addis Ababa, Ethiopia</span>
               </div>
               <div className="b-item">
                 <Phone size={16} className="b-icon" />
-                <span>+251 (11) 668-9021 / +251 (91) 142-8092</span>
+                <span>Office: +251-116-67-57-76 • Mobile: +251-929-92-31-31 / +251-941-61-65-61/62</span>
               </div>
               <div className="b-item">
                 <Mail size={16} className="b-icon" />
-                <span>info@mychoiceethiopia.com / fleet@mychoiceethiopia.com</span>
+                <span>mychoiceethiopia@gmail.com</span>
               </div>
               <div className="b-item">
                 <Clock size={16} className="b-icon" />
-                <span>Mon – Sat: 8:00 AM – 6:00 PM (EAT) • 24/7 Field Duty Desk</span>
+                <span>Monday – Saturday: 8:00 AM – 6:00 PM (EAT)</span>
               </div>
             </div>
             <div className="role-contact-line">
               <UserCheck size={14} />
-              <span><strong>Principal Contact:</strong> Vice Manager / Tours &amp; Operations Director</span>
+              <span><strong>Principal Contact:</strong> Teklay Mengesha, Vice Manager</span>
             </div>
           </div>
 
-          {/* Branch 2: Semera Afar Branch */}
+          {/* Branch 2: Branch Office – Semera */}
           <div className="branch-contact-card">
-            <div className="branch-badge desert">AFAR REGIONAL GATEWAY</div>
-            <h3 className="branch-title">Semera Branch Office (Danakil Hub)</h3>
+            <div className="branch-badge desert">AFAR REGIONAL BRANCH</div>
+            <h3 className="branch-title">2. Branch Office – Semera</h3>
             <div className="branch-details-list">
               <div className="b-item">
                 <MapPin size={16} className="b-icon" />
-                <span>Semera Gate, Main Highway Junction, Afar Regional State</span>
+                <span>Zone 01, Kebele 01, Semera City, Afar Regional State</span>
               </div>
               <div className="b-item">
                 <Phone size={16} className="b-icon" />
-                <span>+251 (33) 666-0182 / +251 (91) 430-8812</span>
+                <span>Mobile: +251-902-41-11-41 / +251-941-61-65-61/62</span>
               </div>
               <div className="b-item">
                 <Mail size={16} className="b-icon" />
-                <span>semera.dispatch@mychoiceethiopia.com</span>
+                <span>mychoiceethiopia@gmail.com</span>
               </div>
             </div>
             <div className="role-contact-line">
               <UserCheck size={14} />
-              <span><strong>Principal Contact:</strong> Regional Afar Field Logistics Coordinator</span>
+              <span><strong>Branch Officer:</strong> Samsom Halefom, Logistics Officer</span>
             </div>
           </div>
 
-          {/* Branch 3: Mekelle Tigray Branch */}
+          {/* Branch 3: Branch Office – Kedamay Woyane Sub City */}
           <div className="branch-contact-card">
-            <div className="branch-badge highland">NORTHERN LOGISTICS GATEWAY</div>
-            <h3 className="branch-title">Mekelle Branch Office (Gheralta Hub)</h3>
+            <div className="branch-badge highland">TIGRAY REGIONAL BRANCH</div>
+            <h3 className="branch-title">3. Branch Office – Kedamay Woyane Sub City</h3>
             <div className="branch-details-list">
               <div className="b-item">
                 <MapPin size={16} className="b-icon" />
-                <span>Kedamay Woyane Sub-City, Mekelle, Tigray Regional State</span>
+                <span>BMR Building, 5th Floor, Room Number 509, Mekelle City, Tigray</span>
               </div>
               <div className="b-item">
                 <Phone size={16} className="b-icon" />
-                <span>+251 (34) 440-9128 / +251 (91) 470-3344</span>
+                <span>Mobile: +251-902-41-11-41</span>
               </div>
               <div className="b-item">
                 <Mail size={16} className="b-icon" />
-                <span>mekelle.logistics@mychoiceethiopia.com</span>
+                <span>mychoiceethiopia@gmail.com</span>
               </div>
             </div>
             <div className="role-contact-line">
               <UserCheck size={14} />
-              <span><strong>Principal Contact:</strong> Northern Fleet Logistics Officer</span>
+              <span><strong>Branch Officer:</strong> Samsom Halefom, Logistics Officer</span>
+            </div>
+          </div>
+
+          {/* Personnel Directory Card */}
+          <div className="branch-contact-card" style={{ background: '#FAF7F2', border: '2px solid var(--warm-gold)' }}>
+            <div className="branch-badge" style={{ background: 'var(--warm-gold)', color: 'white' }}>
+              OFFICIAL CONTACT DIRECTORY
+            </div>
+            <h3 className="branch-title" style={{ marginBottom: '1rem' }}>Principal Personnel &amp; Roles</h3>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+              {personnelList.map((p, idx) => (
+                <div key={idx} style={{ borderBottom: idx < 2 ? '1px dashed #D5C8B4' : 'none', paddingBottom: idx < 2 ? '0.75rem' : '0' }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline' }}>
+                    <strong style={{ fontSize: '13px', color: '#1C1E1B' }}>{p.name}</strong>
+                    <span style={{ fontSize: '11px', color: 'var(--warm-gold)', fontWeight: 700 }}>{p.title}</span>
+                  </div>
+                  <div style={{ fontSize: '11px', color: '#707B7C', marginBottom: '0.25rem' }}>{p.category}</div>
+                  <div style={{ fontSize: '11.5px', color: '#333' }}>
+                    {p.office !== 'Regional Branch Direct' && <span>Office: {p.office} • </span>}
+                    <span>Mobile: {p.mobile}</span>
+                  </div>
+                  <div style={{ fontSize: '11px', color: '#566573' }}>Email: {p.email}</div>
+                </div>
+              ))}
             </div>
           </div>
 
@@ -131,9 +186,9 @@ export default function Contact() {
               <Lock size={20} className="lock-icon" />
             </div>
             <div className="bank-sec-body">
-              <h4>Security Notice: Public Banking Information</h4>
+              <h4>Security Notice: Official Banking Information</h4>
               <p>
-                To safeguard institutional transactions and prevent cybersecurity fraud, <strong>Commercial Bank of Ethiopia (CBE)</strong> routing numbers and account details are not displayed on open digital channels. Complete wire and EFT coordinates are transmitted on verified corporate letterhead upon contract finalization.
+                In compliance with cybersecurity and anti-fraud regulations, Commercial Bank of Ethiopia (CBE) accounts are not displayed on open digital channels. Complete verified settlement details are provided on official company letterhead upon contract signing.
               </p>
             </div>
           </div>
@@ -144,18 +199,18 @@ export default function Contact() {
         <div className="contact-form-col">
           <div className="contact-form-card">
             
-            <span className="gold-script-tag">Rapid Dispatch Desk</span>
-            <h3 className="form-card-title">SEND AN OPERATIONAL INQUIRY</h3>
+            <span className="gold-script-tag">Direct Operational Desk</span>
+            <h3 className="form-card-title">SEND AN INQUIRY TO OUR OFFICERS</h3>
             <p className="form-card-sub">
-              Your message will be automatically routed to the designated Logistics Officer or Tour Director based on your selection.
+              Your message will be automatically routed to Vice Manager Teklay Mengesha or the designated Logistics Officer.
             </p>
 
             {submitted ? (
               <div className="form-success-alert">
                 <CheckCircle2 size={36} className="success-icon" />
-                <h4>Operational Message Transmitted</h4>
+                <h4>Message Transmitted Successfully</h4>
                 <p>
-                  Thank you for contacting MyChoice Ethiopia. Your inquiry has been routed to our duty desk. A logistics coordinator or tour specialist will respond within 4 business hours.
+                  Thank you for contacting MyChoice Ethiopia. Vice Manager Teklay Mengesha and our logistics officers have received your inquiry and will respond promptly.
                 </p>
                 <button onClick={() => setSubmitted(false)} className="btn-outline-dark">
                   Send Another Message
@@ -181,7 +236,7 @@ export default function Contact() {
                     <label>Organization / Company (Optional)</label>
                     <input 
                       type="text" 
-                      placeholder="UN Agency, NGO, or Tour Company"
+                      placeholder="Organization, Company or Individual"
                       value={formData.org}
                       onChange={(e) => setFormData({...formData, org: e.target.value})}
                       className="form-input"
@@ -195,7 +250,7 @@ export default function Contact() {
                     <input 
                       type="email" 
                       required 
-                      placeholder="name@organization.org"
+                      placeholder="name@company.com"
                       value={formData.email}
                       onChange={(e) => setFormData({...formData, email: e.target.value})}
                       className="form-input"
@@ -224,30 +279,30 @@ export default function Contact() {
                       className="form-select"
                     >
                       <option value="commodities">Access Ethiopia Crop Supply (Corn, Cotton, Sorghum, Sunflower, Masho)</option>
-                      <option value="governance">Corporate Governance &amp; Tender Pre-Qualification</option>
+                      <option value="governance">Corporate Governance, Investment &amp; Partnership</option>
                     </select>
                   </div>
 
                   <div className="form-group">
-                    <label>Preferred Operational Staging Hub</label>
+                    <label>Preferred Operational Branch</label>
                     <select 
                       value={formData.hub}
                       onChange={(e) => setFormData({...formData, hub: e.target.value})}
                       className="form-select"
                     >
-                      <option value="addis">Addis Ababa Head Office (Capital &amp; Nationwide)</option>
-                      <option value="semera">Semera Branch Office (Afar &amp; Danakil Desert)</option>
-                      <option value="mekelle">Mekelle Branch Office (Tigray &amp; Gheralta)</option>
+                      <option value="yeka">Head Office – Yeka Sub City (Addis Ababa)</option>
+                      <option value="semera">Branch Office – Semera (Afar)</option>
+                      <option value="mekelle">Branch Office – Kedamay Woyane Sub City (Mekelle)</option>
                     </select>
                   </div>
                 </div>
 
                 <div className="form-group full-width">
-                  <label>Message / Operational Requirements *</label>
+                  <label>Message / Order Specifications *</label>
                   <textarea 
                     rows="4" 
                     required 
-                    placeholder="Describe your travel dates, fleet vehicle requirements, project duration, or commodity specifications..."
+                    placeholder="Provide details about your crop procurement, supply schedule, or business inquiry..."
                     value={formData.message}
                     onChange={(e) => setFormData({...formData, message: e.target.value})}
                     className="form-textarea"
@@ -255,7 +310,7 @@ export default function Contact() {
                 </div>
 
                 <button type="submit" className="btn-solid-red full-width">
-                  <Send size={16} /> ROUTE INQUIRY TO DESIGNATED DESK
+                  <Send size={16} /> TRANSMIT INQUIRY TO DESK
                 </button>
 
                 <div className="form-disclaimer">

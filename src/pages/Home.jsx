@@ -13,7 +13,10 @@ import {
   Award,
   ExternalLink,
   Wheat,
-  Layers
+  Eye,
+  Target,
+  Leaf,
+  Globe2
 } from 'lucide-react';
 
 export default function Home() {
@@ -28,6 +31,13 @@ export default function Home() {
     e.preventDefault();
     window.open('https://mychoice2.vercel.app/', '_blank', 'noopener,noreferrer');
   };
+
+  const objectivesList = [
+    'Expansion of Agriculture production and sustainable local crop supply.',
+    'Expansion of the vehicle rental service and tour activities business model.',
+    'Providing high quality service that meets international standards up on the demands and expectations of our customers.',
+    'Focusing on the values we offer to our customers.'
+  ];
 
   return (
     <div className="trail-home-page">
@@ -50,14 +60,14 @@ export default function Home() {
         <div className="trail-container hero-content-inner">
           <div className="hero-top-badge">
             <span className="badge-dot"></span>
-            <span>SUSTAINABLE AGRICULTURE &amp; LOCAL CROP SUPPLY</span>
+            <span>ESTABLISHED 2004 E.C. (2012 G.C.) • VISIONARY ETHIOPIAN ENTERPRISE</span>
           </div>
           <h1 className="hero-condensed-heading">
-            MYCHOICE ETHIOPIA CROPS &amp; HARVEST
+            MYCHOICE ETHIOPIA ENTERPRISE
           </h1>
           <div className="hero-script-wrapper">
             <span className="hero-cursive-phrase">
-              Sustaining communities, supplying prime origin harvest
+              Pioneering excellence, sustainable agriculture &amp; origin harvest
             </span>
             <svg className="curved-arrow-icon" width="34" height="24" viewBox="0 0 34 24" fill="none" stroke="white" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
               <path d="M4 4 C14 18, 22 20, 30 14" />
@@ -105,7 +115,7 @@ export default function Home() {
                 </div>
                 <h3 className="funnel-title">Explore Subsidiaries &amp; Trade Hubs</h3>
                 <p className="funnel-desc">
-                  Inspect our agricultural facilities, supply networks, legal trade certifications, and regional logistics infrastructure spanning East Africa.
+                  Inspect our agricultural facilities, supply networks, legal trade certifications, and regional branch infrastructure spanning Addis Ababa, Semera, and Mekelle.
                 </p>
                 <div className="funnel-features">
                   <span>📄 Trade License Validated</span>
@@ -123,7 +133,7 @@ export default function Home() {
                     <h3>B2C Leisure Expeditions</h3>
                   </a>
                   <a href="https://mychoiceethiopia.vercel.app/" target="_blank" rel="noopener noreferrer" className="funnel-card b2b-funnel">
-                    <h3>B2B Institutional Logistics</h3>
+                    <h3>B2B Corporate Logistics</h3>
                   </a>
                 </>
               )}
@@ -152,9 +162,9 @@ export default function Home() {
           <div className="metrics-counter-grid">
             
             <div className="counter-card">
-              <div className="counter-number">15+</div>
-              <div className="counter-label">Years Operating Experience</div>
-              <div className="counter-sub">Reliable domestic grain, fiber &amp; pulse distribution</div>
+              <div className="counter-number">14+</div>
+              <div className="counter-label">Years of Excellence</div>
+              <div className="counter-sub">Established 2004 E.C. (2012 G.C.) in Addis Ababa</div>
             </div>
 
             <div className="counter-card">
@@ -164,15 +174,15 @@ export default function Home() {
             </div>
 
             <div className="counter-card">
-              <div className="counter-number">12K+</div>
-              <div className="counter-label">Smallholder Cooperative Network</div>
-              <div className="counter-sub">Direct field procurement with 100% batch traceability</div>
+              <div className="counter-number">3</div>
+              <div className="counter-label">Regional Operational Hubs</div>
+              <div className="counter-sub">Yeka (Addis Ababa) • Semera (Afar) • Mekelle (Tigray)</div>
             </div>
 
             <div className="counter-card">
               <div className="counter-number">100%</div>
               <div className="counter-label">Sortex &amp; Purity Standards</div>
-              <div className="counter-sub">Meets international phytosanitary export specs</div>
+              <div className="counter-sub">Direct smallholder partnership &amp; batch traceability</div>
             </div>
 
           </div>
@@ -180,7 +190,82 @@ export default function Home() {
       </section>
 
       {/* ========================================================= */}
-      {/* 3. SELECTOR BAR ("SELECT CROP & BELT")                    */}
+      {/* 3. OUR VISION, OUR GOALS & OUR OBJECTIVES SECTION         */}
+      {/* ========================================================= */}
+      <section className="vision-goals-section">
+        <div className="trail-container">
+          <div className="vg-header-block">
+            <span className="gold-script-tag">Guiding Principles &amp; Ethos</span>
+            <h2 className="section-main-heading">OUR VISION, GOALS &amp; OBJECTIVES</h2>
+            <p className="section-sub-text">
+              Building one of the most reliable and distinguished enterprises in East Africa while upholding our green environmental commitments and community social responsibilities.
+            </p>
+          </div>
+
+          <div className="vg-cards-grid">
+            
+            {/* Card 1: Our Vision */}
+            <div className="vg-card-item">
+              <div className="vg-card-top">
+                <div className="vg-icon-box">
+                  <Eye size={22} />
+                </div>
+                <span className="vg-pill">STRATEGIC HORIZON</span>
+              </div>
+              <h3 className="vg-title">OUR VISION</h3>
+              <p className="vg-desc">
+                My Choice Ethiopia Tour is a preferred company for customers in Ethiopia and foreign companies, individuals as well as other entities.
+              </p>
+              <p className="vg-desc" style={{ marginTop: '0.5rem' }}>
+                Our company to become pioneer and world class comprehensive vehicle rent and tourism service provider and earn the admiration of investors, customers, employees, government and community at large. And our company has a vision through to be one of the biggest, reliable and attractive companies in East Africa and to offer a superior world class quality service especially in Ethiopia.
+              </p>
+            </div>
+
+            {/* Card 2: Our Goals */}
+            <div className="vg-card-item">
+              <div className="vg-card-top">
+                <div className="vg-icon-box">
+                  <Target size={22} />
+                </div>
+                <span className="vg-pill green">SUSTAINABILITY</span>
+              </div>
+              <h3 className="vg-title">OUR GOALS</h3>
+              <p className="vg-desc">
+                We set our goals knowing that we are capable of achieving them by adopting the program of giving emphasis to the green environment commitments. The concern that we have regarding our environment is deeper into our operations so as to benefit our fragile ecology and the society taking into account our social responsibilities.
+              </p>
+              <p className="vg-desc" style={{ marginTop: '0.5rem' }}>
+                We are putting our effort into improving the wellbeing and safety of our employees, maintain the highest international standards, and we value working with like-minded partners to reduce negative environmental impacts on our environment and to promote our operational sustainability.
+              </p>
+            </div>
+
+            {/* Card 3: Our Objectives */}
+            <div className="vg-card-item">
+              <div className="vg-card-top">
+                <div className="vg-icon-box">
+                  <CheckCircle2 size={22} />
+                </div>
+                <span className="vg-pill gold">CORE PILLARS</span>
+              </div>
+              <h3 className="vg-title">OUR OBJECTIVES</h3>
+              <ul className="vg-objectives-list">
+                {objectivesList.map((obj, i) => (
+                  <li key={i}>
+                    <span className="vg-bullet">✓</span>
+                    <span>{obj}</span>
+                  </li>
+                ))}
+              </ul>
+              <div style={{ marginTop: '1.25rem', paddingTop: '1rem', borderTop: '1px solid #EAE2D2', fontSize: '11.5px', color: '#566573' }}>
+                Promoting customer value, local community benefits, and environmental harmony.
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      {/* ========================================================= */}
+      {/* 4. SELECTOR BAR ("SELECT CROP & BELT")                    */}
       {/* ========================================================= */}
       <section className="route-selector-section">
         <div className="trail-container">
@@ -254,17 +339,10 @@ export default function Home() {
       </section>
 
       {/* ========================================================= */}
-      {/* 4. THE SINUOUS MAP-TRAIL ROUTE (AGRICULTURE FEATURED)     */}
+      {/* 5. THE SINUOUS MAP-TRAIL ROUTE (AGRICULTURE FEATURED)     */}
       {/* ========================================================= */}
       <section className="trail-map-section">
         <div className="trail-container relative-trail-box">
-
-          {/* Preserved Code for Stop 1: B2C Expeditions (Hidden from layout for now) */}
-          {SHOW_FLEET_AND_TOURS && (
-            <div id="stop-expeditions" className="trail-stop-row stop-left-photo">
-              {/* Expeditions markup preserved */}
-            </div>
-          )}
 
           {/* ======================================================== */}
           {/* STOP 2: AGRICULTURE & LOCAL CROPS (FEATURED)             */}
@@ -323,18 +401,11 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Preserved Code for Stop 3: B2B Fleet Logistics (Hidden from layout for now) */}
-          {SHOW_FLEET_AND_TOURS && (
-            <div id="stop-fleet" className="trail-stop-row stop-left-photo">
-              {/* Fleet markup preserved */}
-            </div>
-          )}
-
         </div>
       </section>
 
       {/* ========================================================= */}
-      {/* 5. BOTTOM PANORAMIC BANNER                                */}
+      {/* 6. BOTTOM PANORAMIC BANNER                                */}
       {/* ========================================================= */}
       <section className="trail-bottom-panorama">
         <div className="panorama-img-box">
@@ -352,9 +423,9 @@ export default function Home() {
             </svg>
           </div>
           <div className="panorama-content-overlay">
-            <h4 className="panorama-title">MYCHOICE ETHIOPIA AGRICULTURAL SUPPLY</h4>
+            <h4 className="panorama-title">MYCHOICE ETHIOPIA ENTERPRISE</h4>
             <p className="panorama-sub">
-              Specialized domestic distribution and international export of Corn, Cotton, Sorghum, Sunflower, and Masho.
+              Established in 2004 E.C. (2012 G.C.). Sourcing and supplying Corn, Cotton, Sorghum, Sunflower, and Masho across Ethiopia and East Africa.
             </p>
             <div className="panorama-actions">
               <a 

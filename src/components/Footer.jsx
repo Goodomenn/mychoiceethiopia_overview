@@ -14,12 +14,12 @@ export default function Footer() {
             <span className="footer-brand-title">MYCHOICE ETHIOPIA</span>
           </div>
           <p className="footer-brand-p">
-            Premier hybrid enterprise integrating B2C wilderness expeditions with B2B institutional fleet logistics for UN agencies and international NGOs across Ethiopia.
+            Established in 2004 E.C. (2012 G.C.) by an Ethiopian visionary investor. Engaged in diversified commercial investment, origin agriculture, and sustainable local crop supply across East Africa.
           </p>
           <div className="footer-reg-info">
             <div>Business License: <strong>14/666/128419/2005</strong></div>
             <div>VAT Registration: <strong>#80692</strong> • SIGTAS Active</div>
-            <div>Chauffeur Cohort: <strong>17 Grade-8 Certified Drivers</strong></div>
+            <div>Standing: <strong>Established 2004 E.C. (14+ Years)</strong></div>
           </div>
         </div>
 
@@ -35,6 +35,8 @@ export default function Footer() {
             </li>
             <li><Link to="/subsidiaries">Subsidiaries Directory</Link></li>
             <li><Link to="/governance">Governance &amp; Policies</Link></li>
+            <li><Link to="/about">About Us &amp; Ownership</Link></li>
+            <li><Link to="/contact">Contact &amp; Branch Offices</Link></li>
           </ul>
         </div>
 
@@ -42,31 +44,31 @@ export default function Footer() {
         <div className="footer-nav-col">
           <h4 className="footer-h4">Governance &amp; Policies</h4>
           <ul className="footer-ul">
-            <li><Link to="/governance">Anti-Bribery Policy (FCPA/UK)</Link></li>
             <li><Link to="/governance">Employee Code of Conduct</Link></li>
+            <li><Link to="/governance">Anti-Bribery Policy (FCPA/UK)</Link></li>
             <li><Link to="/governance">Environmental Sustainability</Link></li>
             <li><Link to="/governance">Healthy Workplace &amp; Safety</Link></li>
-            <li><Link to="/corporate-fleet#compliance-dashboard">Vendor Compliance Dashboard</Link></li>
+            <li><Link to="/about">Vision, Goals &amp; Objectives</Link></li>
           </ul>
         </div>
 
-        {/* Regional Hubs & Financial Security */}
+        {/* Three Real Regional Hubs */}
         <div className="footer-nav-col">
-          <h4 className="footer-h4">Regional Staging Hubs</h4>
+          <h4 className="footer-h4">Regional Branch Offices</h4>
           <ul className="footer-ul hubs-footer-list">
             <li>
-              <strong>Addis Ababa HQ:</strong> Bole Sub-City, Skylight Corridor
+              <strong>1. Head Office (Addis Ababa):</strong> Yeka Sub City, Woreda 09, Gurdsholla, Dawit Building, 3rd Floor 303/304
             </li>
             <li>
-              <strong>Semera Afar Hub:</strong> Danakil &amp; Erta Ale Staging Gate
+              <strong>2. Semera Branch (Afar):</strong> Zone 01, Kebele 01, Semera City
             </li>
             <li>
-              <strong>Mekelle Hub:</strong> Kedamay Woyane Sub-City Depot
+              <strong>3. Mekelle Branch (Tigray):</strong> Kedamay Woyane Sub City, BMR Building, 5th Floor, Room 509
             </li>
           </ul>
           <div className="footer-bank-note">
-            <Lock size={12} className="lock-icon-inline" />
-            <span>Bank account numbers excluded for fraud prevention. CBE wire coordinates issued upon bilateral contract.</span>
+            <Mail size={12} className="lock-icon-inline" />
+            <span>mychoiceethiopia@gmail.com • Office: +251-116-67-57-76</span>
           </div>
         </div>
 
@@ -74,14 +76,13 @@ export default function Footer() {
 
       <div className="footer-bottom-bar">
         <div className="trail-container footer-bottom-inner">
-          <span>&copy; 2026 MyChoice Ethiopia Tour &amp; Fleet Operations. All Rights Reserved.</span>
+          <span>&copy; 2026 MyChoice Ethiopia. Established 2004 E.C. (2012 G.C.). All Rights Reserved.</span>
           <div className="footer-sub-links">
-
             <a href="https://mychoice2.vercel.app/" target="_blank" rel="noopener noreferrer">
               Agriculture Portal ↗
             </a>
             <span className="dot">•</span>
-            <Link to="/contact">Emergency Dispatch</Link>
+            <Link to="/contact">Contact Directorate</Link>
           </div>
         </div>
       </div>
