@@ -37,7 +37,7 @@ export default function Tours() {
       tagline: 'Direct Staging from our Semera Afar Office with Local Scouts & 4x4 Support',
       overview: 'Venture into the lowest, hottest, and most geologically hyper-active landmass on earth. Starting directly from our Semera regional logistics base, we traverse Lake Assale salt mines, the kaleidoscopic hydrothermal sulfur chimneys of Dallol, and hike by night to peer into the bubbling lava lake of Erta Ale volcano.',
       inclusions: [
-        'Air-conditioned Toyota Land Cruiser 4x4 with fuel & Grade-8 driver',
+        'Air-conditioned Toyota Land Cruiser 4x4 with fuel & professional driver',
         'Direct pickup & return at Semera Airport (Afar Regional State)',
         'Local Afar clan guides, regional road permits, and armed safety escorts',
         'Field expedition cook preparing fresh daily meals & cold drinks',
@@ -81,7 +81,7 @@ export default function Tours() {
       tagline: 'Orchestrated from our Mekelle Office with Certified Mountain Climbing Guides',
       overview: 'Towering sandstone buttes conceal Ethiopia’s most breathtaking monolithic religious sanctuaries, carved high into cliff faces during the 5th to 8th centuries. Based out of our Mekelle Kedamay Woyane depot, we ascend Abuna Yemata Guh, Maryam Korkor, and Daniel Korkor.',
       inclusions: [
-        'Dedicated 4x4 vehicle with mountain-experienced Grade-8 chauffeur',
+        'Dedicated 4x4 vehicle with mountain-experienced professional chauffeur',
         'Direct transfers from Mekelle Alula Aba Nega Airport',
         'Expert rock climbing guides with harness equipment for vertical pitches',
         'Monastery entry donations and church clergy blessing permits',
@@ -359,7 +359,7 @@ export default function Tours() {
               {/* Action Bar */}
               <div className="tour-card-footer">
                 <div className="footer-left">
-                  <span>Transparent Pricing • All Permits Included • Grade-8 Chauffeur Outfitted</span>
+                  <span>Transparent Pricing • All Permits Included • Professional Chauffeur Outfitted</span>
                 </div>
                 <div className="footer-right">
                   <Link to="/contact" className="btn-solid-red">

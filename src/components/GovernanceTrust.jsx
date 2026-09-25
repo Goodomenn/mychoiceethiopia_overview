@@ -24,7 +24,7 @@ export default function GovernanceTrust() {
             </div>
             <div className="pillar-card">
               <div className="pillar-title">Fleet Integrity</div>
-              <p className="pillar-desc">17 Grade-8 certified drivers with defensive training.</p>
+              <p className="pillar-desc">17 professional drivers (educated up to Grade 8) with defensive training.</p>
             </div>
             <div className="pillar-card">
               <div className="pillar-title">Export Scale</div>

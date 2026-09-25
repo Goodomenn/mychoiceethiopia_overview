@@ -100,7 +100,7 @@ export default function FeaturedCapsules({ onOpenModal }) {
           <div className="capsule-bottom-info">
             <span className="capsule-name">MyChoice Ethiopia</span>
             <span className="capsule-sub">UN/NGO Fleet &amp; Expeditions</span>
-            <span className="capsule-meta" style={{ color: 'var(--sage-300)' }}>17 Grade-8 Drivers</span>
+            <span className="capsule-meta" style={{ color: 'var(--sage-300)' }}>17 Professional Drivers</span>
           </div>
         </div>
       </div>

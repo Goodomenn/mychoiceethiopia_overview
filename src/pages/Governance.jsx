@@ -28,7 +28,7 @@ export default function Governance() {
       keyPillars: [
         'Strict zero-tolerance on facilitation payments, kickbacks, or gifts of material value to public officials or procurement officers.',
         'Independent anonymous reporting channel and ironclad whistleblower protection for all employees and third-party contractors.',
-        'Mandatory annual anti-corruption certification required for all 17 Grade-8 certified drivers and operations personnel.',
+        'Mandatory annual anti-corruption certification required for all 17 professional drivers (educated up to Grade 8) and operations personnel.',
         'Full financial transparency and audit trail on all commercial contracts and official electronic VAT invoicing (#80692).'
       ],
       fullText: `1. PURPOSE & SCOPE
@@ -116,7 +116,7 @@ We recruit local Afar and Tigray scouts exclusively from immediate host communit
       summary: 'Establishes our comprehensive Occupational Health and Safety (OHS) infrastructure. Designed to guarantee zero preventable injuries, every fleet deployment is supported by certified medical trauma kits, 24/7 telemetry monitoring, satellite distress beacons, and established emergency medical evacuation corridors across remote Ethiopian sectors.',
       keyPillars: [
         'Comprehensive first-aid and wilderness trauma kits installed in every commercial and tour vehicle.',
-        'Mandatory defensive driving and CPR certification renewed bi-annually for all Grade-8 licensed drivers.',
+        'Mandatory defensive driving and CPR certification renewed bi-annually for all employed fleet drivers.',
         '24/7 central logistics tracking with HF/VHF radio backstop in out-of-cellular zones (Danakil & Afar triangle).',
         'Pre-established helicopter and air-ambulance medical evacuation protocols with private aviation providers in Addis Ababa.'
       ],

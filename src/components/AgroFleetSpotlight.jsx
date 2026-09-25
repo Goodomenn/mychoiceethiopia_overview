@@ -65,7 +65,7 @@ export default function AgroFleetSpotlight({ onOpenModal }) {
                 <span className="menu-item-stat">30-DAY CREDIT</span>
               </div>
               <p className="menu-item-sub">Toyota Land Cruiser HZJ76/78, Prado, V8 &amp; HiAce commercial fleet</p>
-              <p className="menu-item-detail">17 Grade-8 certified chauffeurs, live GPS telemetry, dual tanks, winches, electronic VAT invoicing</p>
+              <p className="menu-item-detail">17 professional drivers (educated up to Grade 8), live GPS telemetry, dual tanks, winches, electronic VAT invoicing</p>
               <div className="menu-item-actions">
                 <button onClick={() => onOpenModal('mychoice')} className="menu-link-btn">Launch MyChoice Fleet Portal ↗</button>
                 <span>•</span>

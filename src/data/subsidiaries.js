@@ -91,19 +91,19 @@ export const SUBSIDIARIES = {
     division: 'Tour Planning & Expeditions',
     badge: 'Tour Planning',
     status: 'VAT #80692 • SIGTAS Active',
-    desc: 'Leading institutional fleet contractor providing heavy-duty Toyota Land Cruisers, 17 Grade-8 certified drivers, and 30-day post-paid credit facilities to UN agencies, diplomatic missions, and international NGOs.',
+    desc: 'Leading institutional fleet contractor providing heavy-duty Toyota Land Cruisers, 17 professional drivers (educated up to Grade 8), and 30-day post-paid credit facilities to UN agencies, diplomatic missions, and international NGOs.',
     entity: 'MyChoice Ethiopia / MyChoice Fleet (VAT #80692)',
     webUrl: 'https://mychoiceethiopia.vercel.app/',
     localUrl: 'file:///D:/neh/TriplyTour/README.md',
     heroImg: 'https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=800&q=80',
     specs: [
-      { k: 'Certified Chauffeurs', v: '17 Grade-8 Certified Drivers' },
+      { k: 'Professional Chauffeurs', v: '17 Drivers (Educated up to Grade 8)' },
       { k: 'Credit Facilities', v: '30-Day Post-Paid Credit Terms' },
       { k: 'Regional Hubs', v: 'Addis Ababa • Semera • Mekelle' },
       { k: 'Telemetry', v: 'Dual GPS & Winch Outfitted 4x4s' }
     ],
     table: [
-      { param: 'Driver Qualifications', spec: '17 Grade-8 Certified Chauffeurs', proto: 'Transport Authority Verified' },
+      { param: 'Driver Qualifications', spec: '17 Professional Drivers (Educated up to Grade 8)', proto: 'Transport Authority Verified' },
       { param: 'Institutional Credit', spec: '30-Day Post-Paid Terms', proto: 'Electronic VAT Invoicing #80692' },
       { param: 'Fleet Telemetry', spec: 'Real-Time Dual GPS Tracking', proto: 'UN UNDSS Fleet Guidelines' },
       { param: 'Off-Road Outfitting', spec: 'Snorkels, Winches, Trauma Kits', proto: 'Expedition Readiness Audit' }

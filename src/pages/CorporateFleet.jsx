@@ -36,7 +36,7 @@ export default function CorporateFleet() {
         'Dual 90L Fuel Tanks (180L Total Field Range)',
         'Heavy-Duty Winch, Snorkel, & High-Lift Jack',
         'Built-in VHF/HF Radio & Real-time GPS Tracker',
-        'Grade-8 Certified Off-Road Chauffeur Assigned',
+        'Professional Off-Road Chauffeur (Educated up to Grade 8)',
         'Comprehensive Medical First Aid Trauma Kit'
       ],
       idealFor: 'Afar desert, Tigray mountain passes, Omo Valley, and remote NGO project evaluations.'
@@ -81,7 +81,7 @@ export default function CorporateFleet() {
         'Dual Front & Rear Climate Control Air Conditioning',
         'Reinforced Chassis for Inter-City Highways',
         'Validated Daily Passenger & Mileage Logbooks',
-        'Grade-8 Licensed Group Transit Operator',
+        'Professional Group Transit Operator (Educated up to Grade 8)',
         'Regular 5,000km Certified Preventative Maintenance'
       ],
       idealFor: 'Project staff rotations, survey teams, and workshop participant transfers.'
@@ -145,7 +145,7 @@ export default function CorporateFleet() {
             B2B FLEET LOGISTICS &amp; NGO CAR LEASING
           </h1>
           <p className="fleet-hero-sub">
-            Providing mission-critical 4x4 vehicles, certified Grade-8 chauffeurs, and 30-day post-paid credit facilities to UN bodies, international NGOs, and diplomatic missions across Ethiopia.
+            Providing mission-critical 4x4 vehicles, professional chauffeurs (educated up to Grade 8), and 30-day post-paid credit facilities to UN bodies, international NGOs, and diplomatic missions across Ethiopia.
           </p>
           <div className="fleet-hero-cta-row">
             <a href="https://mychoiceethiopia.vercel.app/" target="_blank" rel="noopener noreferrer" className="btn-solid-gold">
@@ -272,15 +272,15 @@ export default function CorporateFleet() {
         </div>
       </section>
 
-      {/* 3. 17 GRADE-8 CERTIFIED CHAUFFEUR CORPS */}
+      {/* 3. 17 PROFESSIONAL CHAUFFEURS (EDUCATED UP TO GRADE 8) */}
       <section className="drivers-section">
         <div className="trail-container">
           <div className="drivers-layout-grid">
             <div className="drivers-text-col">
               <span className="gold-script-tag">Human Capital Rigor</span>
-              <h2 className="section-main-heading">17 GRADE-8 CERTIFIED CHAUFFEURS</h2>
+              <h2 className="section-main-heading">17 PROFESSIONAL CHAUFFEURS</h2>
               <p className="drivers-p">
-                NGO tenders (such as IUCN, DanChurchAid, and NEWA) demand far more than basic driving licenses. Our cohort of <strong>17 Grade-8 certified professionals</strong> represents the elite tier of commercial off-road operators in the Horn of Africa.
+                NGO tenders (such as IUCN, DanChurchAid, and NEWA) demand dependable, literate, and skilled field operators. Our cohort of <strong>17 professional drivers</strong>, combines foundational education and logbook literacy with elite commercial off-road operating skills across the Horn of Africa.
               </p>
               
               <div className="driver-capabilities-list">
@@ -319,7 +319,7 @@ export default function CorporateFleet() {
                 <div className="driver-stat-highlight">
                   <div className="big-stat-number">17</div>
                   <div className="big-stat-desc">
-                    Grade-8 &amp; Above Certified Operators Stationed Across Addis, Semera &amp; Mekelle
+                    Professional Drivers (Educated up to Grade 8) Stationed Across Addis, Semera &amp; Mekelle
                   </div>
                 </div>
                 <div className="training-credentials-box">
