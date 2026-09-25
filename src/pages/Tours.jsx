@@ -178,7 +178,7 @@ export default function Tours() {
           <span className="gold-script-tag">Origin Wilderness &amp; Sanctuaries</span>
           <h1 className="tours-hero-title">EXPEDITIONS &amp; TOUR OPERATIONS</h1>
           <div style={{ marginTop: '1.25rem' }}>
-            <a href="https://mychoiceethiopia.vercel.app/" target="_blank" rel="noopener noreferrer" className="btn-solid-gold" style={{ display: 'inline-flex', alignItems: 'center', gap: '6px' }}>
+            <a href="https://tour.mychoiceethiopia.com/" target="_blank" rel="noopener noreferrer" className="btn-solid-gold" style={{ display: 'inline-flex', alignItems: 'center', gap: '6px' }}>
               Launch Full Tours &amp; Expeditions Portal ↗
             </a>
           </div>

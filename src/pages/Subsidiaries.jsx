@@ -22,7 +22,7 @@ export default function Subsidiaries() {
         { label: 'Tour Destinations', value: 'All Ethiopian Corridors' },
         { label: 'Regional Hubs', value: 'Addis • Semera • Mekelle' }
       ],
-      webUrl: 'https://mychoiceethiopia.vercel.app/',
+      webUrl: 'https://tour.mychoiceethiopia.com/',
       localFolder: 'D:\\neh\\MyChoice\\client'
     },
     {
@@ -43,7 +43,7 @@ export default function Subsidiaries() {
         { label: 'Export Destinations', value: '35+ Countries' },
         { label: 'Annual Throughput', value: '50,000+ MT' }
       ],
-      webUrl: 'https://mychoice2.vercel.app/',
+      webUrl: 'https://agri.mychoiceethiopia.com/',
       localFolder: 'D:\\neh\\MyChoice\\mychoice2'
     }
   ];

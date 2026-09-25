@@ -29,7 +29,7 @@ export default function Footer() {
           <ul className="footer-ul">
             <li><Link to="/">Home &amp; Map Trail</Link></li>
             <li>
-              <a href="https://mychoice2.vercel.app/" target="_blank" rel="noopener noreferrer">
+              <a href="https://agri.mychoiceethiopia.com/" target="_blank" rel="noopener noreferrer">
                 Local Crop Supply (Corn, Cotton, Sorghum, Sunflower, Masho) ↗
               </a>
             </li>
@@ -78,7 +78,7 @@ export default function Footer() {
         <div className="trail-container footer-bottom-inner">
           <span>&copy; 2026 MyChoice Ethiopia. Established 2004 E.C. (2012 G.C.). All Rights Reserved.</span>
           <div className="footer-sub-links">
-            <a href="https://mychoice2.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <a href="https://agri.mychoiceethiopia.com/" target="_blank" rel="noopener noreferrer">
               Agriculture Portal ↗
             </a>
             <span className="dot">•</span>

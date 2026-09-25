@@ -29,7 +29,7 @@ export default function Home() {
 
   const handleRouteSearch = (e) => {
     e.preventDefault();
-    window.open('https://mychoice2.vercel.app/', '_blank', 'noopener,noreferrer');
+    window.open('https://agri.mychoiceethiopia.com/', '_blank', 'noopener,noreferrer');
   };
 
   const objectivesList = [
@@ -81,7 +81,7 @@ export default function Home() {
               
               {/* Card 1: Direct Agriculture Portal */}
               <a 
-                href="https://mychoice2.vercel.app/" 
+                href="https://agri.mychoiceethiopia.com/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="funnel-card b2c-funnel group"
@@ -106,7 +106,7 @@ export default function Home() {
 
               {/* Card 2: Direct Tour & Expeditions Portal */}
               <a 
-                href="https://mychoiceethiopia.vercel.app/" 
+                href="https://tour.mychoiceethiopia.com/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="funnel-card b2b-funnel group"
@@ -131,10 +131,10 @@ export default function Home() {
               {/* Preserved Code for Expeditions and Fleet Funnels (Hidden from layout for now) */}
               {SHOW_FLEET_AND_TOURS && (
                 <>
-                  <a href="https://mychoiceethiopia.vercel.app/" target="_blank" rel="noopener noreferrer" className="funnel-card b2c-funnel">
+                  <a href="https://tour.mychoiceethiopia.com/" target="_blank" rel="noopener noreferrer" className="funnel-card b2c-funnel">
                     <h3>B2C Leisure Expeditions</h3>
                   </a>
-                  <a href="https://mychoiceethiopia.vercel.app/" target="_blank" rel="noopener noreferrer" className="funnel-card b2b-funnel">
+                  <a href="https://tour.mychoiceethiopia.com/" target="_blank" rel="noopener noreferrer" className="funnel-card b2b-funnel">
                     <h3>B2B Corporate Logistics</h3>
                   </a>
                 </>
@@ -374,7 +374,7 @@ export default function Home() {
               </div>
 
               <a 
-                href="https://mychoice2.vercel.app/" 
+                href="https://agri.mychoiceethiopia.com/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="trail-action-link"
@@ -386,7 +386,7 @@ export default function Home() {
 
             <div className="stop-photo-col">
               <a 
-                href="https://mychoice2.vercel.app/" 
+                href="https://agri.mychoiceethiopia.com/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="torn-photo-link group"
@@ -431,7 +431,7 @@ export default function Home() {
             </p>
             <div className="panorama-actions">
               <a 
-                href="https://mychoice2.vercel.app/" 
+                href="https://agri.mychoiceethiopia.com/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="btn-solid-gold"
@@ -439,7 +439,7 @@ export default function Home() {
                 Agriculture Export Portal ↗
               </a>
               <a 
-                href="https://mychoiceethiopia.vercel.app/" 
+                href="https://tour.mychoiceethiopia.com/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="btn-solid-gold"

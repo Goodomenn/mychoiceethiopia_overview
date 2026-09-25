@@ -97,7 +97,7 @@ export default function About() {
               <CheckCircle className="point-icon" size={18} />
               <div>
                 <strong>
-                  <a href="https://mychoiceethiopia.vercel.app/" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>
+                  <a href="https://tour.mychoiceethiopia.com/" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>
                     MyChoice Ethiopia Tour Planning &amp; Expeditions (Live Web Portal ↗)
                   </a>:
                 </strong> Premier travel and tour planning platform coordinating bespoke itineraries, licensed cultural guides, and wilderness expeditions across all Ethiopian regions.
@@ -107,7 +107,7 @@ export default function About() {
               <CheckCircle className="point-icon" size={18} />
               <div>
                 <strong>
-                  <a href="https://mychoice2.vercel.app/" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>
+                  <a href="https://agri.mychoiceethiopia.com/" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>
                     Access Ethiopia Commodities (Live Web Portal ↗)
                   </a>:
                 </strong> Agricultural enterprise specializing in the supply and export of key local crops: Corn (Maize), raw Cotton, Sorghum, Sunflower oilseeds, and clean Masho (Green Mung Beans) sourced directly from regional farming networks.

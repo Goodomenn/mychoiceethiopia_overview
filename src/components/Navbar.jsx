@@ -57,7 +57,7 @@ export default function Navbar() {
             <a href="tel:+251116675776" className="phone-number">+251-116-67-57-76</a>
           </div>
           <a 
-            href="https://mychoice2.vercel.app/" 
+            href="https://agri.mychoiceethiopia.com/" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="header-rfq-pill"
@@ -96,7 +96,7 @@ export default function Navbar() {
                 <a href="tel:+251116675776">+251-116-67-57-76</a>
               </div>
               <a
-                href="https://mychoice2.vercel.app/"
+                href="https://agri.mychoiceethiopia.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setMenuOpen(false)}

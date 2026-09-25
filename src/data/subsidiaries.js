@@ -9,7 +9,7 @@ export const SUBSIDIARIES = {
     status: 'ISO 22000 & HACCP Certified',
     desc: 'Leading local crop supply and export enterprise specializing in Corn (Maize), raw Cotton, Sorghum, Sunflower seeds, and Masho (green mung beans) sourced directly from regional Ethiopian agricultural cooperatives.',
     entity: 'Ela Trading PLC (Reg #14/666/128419/2005)',
-    webUrl: 'https://mychoice2.vercel.app/',
+    webUrl: 'https://agri.mychoiceethiopia.com/',
     localUrl: 'file:///C:/Users/ASUS%20VIVOBOOK/.gemini/antigravity/scratch/ela-trading-website/index.html',
     heroImg: '/images/crop-harvest.jpg',
     specs: [
@@ -93,7 +93,7 @@ export const SUBSIDIARIES = {
     status: 'VAT #80692 • SIGTAS Active',
     desc: 'Leading institutional fleet contractor providing heavy-duty Toyota Land Cruisers, 17 professional drivers (educated up to Grade 8), and 30-day post-paid credit facilities to UN agencies, diplomatic missions, and international NGOs.',
     entity: 'MyChoice Ethiopia / MyChoice Fleet (VAT #80692)',
-    webUrl: 'https://mychoiceethiopia.vercel.app/',
+    webUrl: 'https://tour.mychoiceethiopia.com/',
     localUrl: 'file:///D:/neh/TriplyTour/README.md',
     heroImg: 'https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=800&q=80',
     specs: [

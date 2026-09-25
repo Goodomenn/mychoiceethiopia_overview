@@ -148,7 +148,7 @@ export default function CorporateFleet() {
             Providing mission-critical 4x4 vehicles, professional chauffeurs (educated up to Grade 8), and 30-day post-paid credit facilities to UN bodies, international NGOs, and diplomatic missions across Ethiopia.
           </p>
           <div className="fleet-hero-cta-row">
-            <a href="https://mychoiceethiopia.vercel.app/" target="_blank" rel="noopener noreferrer" className="btn-solid-gold">
+            <a href="https://tour.mychoiceethiopia.com/" target="_blank" rel="noopener noreferrer" className="btn-solid-gold">
               Launch Live Fleet Portal ↗
             </a>
             <a href="#compliance-dashboard" className="btn-outline-white">
