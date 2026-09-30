@@ -309,12 +309,11 @@ export default function Contact() {
                   ></textarea>
                 </div>
 
-                <button type="submit" className="btn-solid-red full-width">
-                  <Send size={16} /> TRANSMIT INQUIRY TO DESK
-                </button>
-
-                <div className="form-disclaimer">
-                  Verified Legal Credentials: Business License #14/666/128419/2005 • VAT Registration #80692 • SIGTAS Active
+                <div className="transmit-btn-wrapper">
+                  <button type="submit" className="transmit-inquiry-btn">
+                    <Send size={18} className="send-icon" />
+                    <span>TRANSMIT INQUIRY TO DESK</span>
+                  </button>
                 </div>
 
               </form>
