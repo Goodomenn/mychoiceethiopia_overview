@@ -256,13 +256,70 @@ export default function Home() {
 
 
       {/* ========================================================= */}
-      {/* 5. THE SINUOUS MAP-TRAIL ROUTE (AGRICULTURE FEATURED)     */}
+      {/* 4. THE SINUOUS MAP-TRAIL ROUTE (TOURS & AGRICULTURE)      */}
       {/* ========================================================= */}
       <section className="trail-map-section">
         <div className="trail-container relative-trail-box">
 
           {/* ======================================================== */}
-          {/* STOP 2: AGRICULTURE & LOCAL CROPS (FEATURED)             */}
+          {/* STOP 1: LEFT PHOTO + RIGHT CONTENT (TOURS & EXPEDITIONS) */}
+          {/* ======================================================== */}
+          <div id="stop-expeditions" className="trail-stop-row stop-left-photo" style={{ marginTop: '2rem', marginBottom: '4rem' }}>
+            <div className="stop-photo-col">
+              <a 
+                href="https://mychoiceethiopia.vercel.app/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="torn-photo-link group"
+              >
+                <div className="torn-photo-wrapper brush-mask-1">
+                  <img
+                    src="https://images.unsplash.com/photo-1510312305653-8ed496efae75?auto=format&fit=crop&w=900&q=80"
+                    alt="MyChoice Ethiopia tour planning and 4x4 wilderness expeditions"
+                    className="torn-image"
+                  />
+                  <div className="photo-hover-tag">Launch MyChoice Tour Web Portal ↗</div>
+                </div>
+              </a>
+            </div>
+
+            <div className="stop-content-col">
+              <div className="watermark-heading-wrap">
+                <span className="gold-script-watermark">Danakil &amp; Gheralta</span>
+                <h3 className="stop-venture-title">
+                  MYCHOICE ADVENTURE EXPEDITIONS &amp; TOUR PLANNING
+                </h3>
+              </div>
+
+              <div className="stop-meta-list">
+                <div className="meta-line">
+                  <span className="meta-label">Curated Circuits:</span>
+                  <span className="meta-val">Custom 4 to 14 days expeditions across Lalibela, Simien Mountains, Danakil Depression, and Omo Valley.</span>
+                </div>
+                <div className="meta-line">
+                  <span className="meta-label">Licensed Tour Guides:</span>
+                  <span className="meta-val">Multilingual tour leaders, local scouts, and 24/7 dedicated trip logistics dispatch.</span>
+                </div>
+                <div className="meta-line">
+                  <span className="meta-label">Expedition Transport:</span>
+                  <span className="meta-val">Rugged 4x4 safari vehicles outfitted with air conditioning, GPS tracking, and comprehensive field trauma kits.</span>
+                </div>
+              </div>
+
+              <a 
+                href="https://mychoiceethiopia.vercel.app/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="trail-action-link"
+              >
+                <span>EXPLORE EXPEDITIONS &amp; TOURS (OPEN WEB PORTAL)</span>
+                <span className="link-arrow">↗</span>
+              </a>
+            </div>
+          </div>
+
+          {/* ======================================================== */}
+          {/* STOP 2: RIGHT PHOTO + LEFT CONTENT (AGRICULTURE)         */}
           {/* ======================================================== */}
           <div id="stop-commodities" className="trail-stop-row stop-right-photo" style={{ marginTop: '2rem', marginBottom: '3rem' }}>
             <div className="stop-content-col">
@@ -289,7 +346,7 @@ export default function Home() {
               </div>
 
               <a 
-                href="https://agri.mychoiceethiopia.com/" 
+                href="https://mychoice2.vercel.app/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="trail-action-link"
@@ -301,7 +358,7 @@ export default function Home() {
 
             <div className="stop-photo-col">
               <a 
-                href="https://agri.mychoiceethiopia.com/" 
+                href="https://mychoice2.vercel.app/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="torn-photo-link group"
@@ -322,7 +379,7 @@ export default function Home() {
       </section>
 
       {/* ========================================================= */}
-      {/* 6. BOTTOM PANORAMIC BANNER                                */}
+      {/* 5. BOTTOM PANORAMIC BANNER                                */}
       {/* ========================================================= */}
       <section className="trail-bottom-panorama">
         <div className="panorama-img-box">
@@ -346,7 +403,7 @@ export default function Home() {
             </p>
             <div className="panorama-actions">
               <a 
-                href="https://agri.mychoiceethiopia.com/" 
+                href="https://mychoice2.vercel.app/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="btn-solid-gold"
@@ -354,7 +411,7 @@ export default function Home() {
                 Agriculture Export Portal ↗
               </a>
               <a 
-                href="https://tour.mychoiceethiopia.com/" 
+                href="https://mychoiceethiopia.vercel.app/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="btn-solid-gold"
