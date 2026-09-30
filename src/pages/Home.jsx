@@ -1,9 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import { 
-  MapPin, 
-  Compass, 
-  Calendar, 
   ArrowRight, 
   CheckCircle2, 
   ShieldCheck, 
@@ -22,15 +19,6 @@ import {
 export default function Home() {
   // Flag: Expeditions and Corporate Fleet are preserved in codebase but hidden from UI for now
   const SHOW_FLEET_AND_TOURS = false;
-
-  const [selectedCorridor, setSelectedCorridor] = useState('corn-cotton');
-  const [selectedCrop, setSelectedCrop] = useState('corn');
-  const [selectedPeriod, setSelectedPeriod] = useState('prompt');
-
-  const handleRouteSearch = (e) => {
-    e.preventDefault();
-    window.open('https://agri.mychoiceethiopia.com/', '_blank', 'noopener,noreferrer');
-  };
 
   const objectivesList = [
     'Expansion of Agriculture production and sustainable local crop supply.',
@@ -266,79 +254,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ========================================================= */}
-      {/* 4. SELECTOR BAR ("SELECT CROP & BELT")                    */}
-      {/* ========================================================= */}
-      <section className="route-selector-section">
-        <div className="trail-container">
-          <div className="selector-card-box">
-            <h2 className="selector-title">SELECT REGIONAL CROP &amp; HARVEST CORRIDOR</h2>
-            
-            <form onSubmit={handleRouteSearch} className="selector-form-row">
-              {/* Field 1: Destination / Corridor */}
-              <div className="selector-field">
-                <span className="field-label">Production Corridor</span>
-                <div className="input-icon-wrap">
-                  <MapPin size={16} className="field-icon" />
-                  <select
-                    value={selectedCorridor}
-                    onChange={(e) => setSelectedCorridor(e.target.value)}
-                    className="selector-select"
-                  >
-                    <option value="corn-cotton">Corn &amp; Cotton Agricultural Belts</option>
-                    <option value="sorghum-sunflower">Sorghum &amp; Sunflower Regional Fields</option>
-                    <option value="masho-plains">Masho (Mung Bean) Grower Plains</option>
-                    <option value="nationwide">Nationwide Agricultural Aggregation</option>
-                  </select>
-                </div>
-              </div>
-
-              {/* Field 2: Crop Selection */}
-              <div className="selector-field">
-                <span className="field-label">Crop Supply Focus</span>
-                <div className="input-icon-wrap">
-                  <Compass size={16} className="field-icon" />
-                  <select
-                    value={selectedCrop}
-                    onChange={(e) => setSelectedCrop(e.target.value)}
-                    className="selector-select"
-                  >
-                    <option value="corn">Corn (Maize) — High Grade</option>
-                    <option value="cotton">Raw Cotton Fiber &amp; Lint</option>
-                    <option value="sorghum">Sorghum Grain (Food &amp; Feed)</option>
-                    <option value="sunflower">Sunflower Oilseeds</option>
-                    <option value="masho">Masho (Green Mung Beans)</option>
-                  </select>
-                </div>
-              </div>
-
-              {/* Field 3: Period / Season */}
-              <div className="selector-field">
-                <span className="field-label">Supply Schedule</span>
-                <div className="input-icon-wrap">
-                  <Calendar size={16} className="field-icon" />
-                  <select
-                    value={selectedPeriod}
-                    onChange={(e) => setSelectedPeriod(e.target.value)}
-                    className="selector-select"
-                  >
-                    <option value="prompt">Prompt Dispatch / Spot Order</option>
-                    <option value="seasonal">Annual Harvest Contract</option>
-                    <option value="year-round">Continuous Warehouse Supply</option>
-                  </select>
-                </div>
-              </div>
-
-              {/* Action Button */}
-              <div className="selector-btn-wrap">
-                <button type="submit" className="selector-red-btn">
-                  LAUNCH LIVE PORTAL ↗
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </section>
 
       {/* ========================================================= */}
       {/* 5. THE SINUOUS MAP-TRAIL ROUTE (AGRICULTURE FEATURED)     */}
