@@ -1,3 +1,6 @@
+import { collection, onSnapshot } from 'firebase/firestore';
+import { db } from '../firebase/config';
+
 // Master Subsidiaries and Ecosystem Data
 export const SUBSIDIARIES = {
   ela: {
@@ -141,3 +144,24 @@ export const SUBSIDIARIES = {
     radarBaselines: [6.4, 6.9, 6.2, 7.1, 6.0]
   }
 };
+
+try {
+  onSnapshot(collection(db, 'subsidiaries'), (snapshot) => {
+    if (!snapshot.empty) {
+      snapshot.docs.forEach((doc) => {
+        const data = doc.data();
+        const key = data.key || doc.id;
+        if (SUBSIDIARIES[key]) {
+          Object.assign(SUBSIDIARIES[key], data);
+        } else {
+          SUBSIDIARIES[key] = { id: doc.id, key, ...data };
+        }
+      });
+    }
+  }, (err) => {
+    console.warn('Firestore subsidiaries live listener warning:', err);
+  });
+} catch (e) {
+  console.warn('Firebase subsidiaries error:', e);
+}
+

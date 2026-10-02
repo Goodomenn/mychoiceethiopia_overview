@@ -25,15 +25,16 @@ export default function Navbar() {
     <header className="trail-header">
       <div className="header-container">
         
-        {/* Circular Compass Crest & Brand */}
-        <Link to="/" className="brand-crest-link">
-          <div className="crest-circle">
-            <Compass size={18} strokeWidth={2} className="compass-icon" />
-            <span className="crest-year">EST. 2005</span>
-          </div>
+        {/* Official Brand Logo & Name */}
+        <Link to="/" className="brand-crest-link" style={{ display: 'flex', alignItems: 'center', gap: '0.85rem' }}>
+          <img 
+            src="/logo.png" 
+            alt="MyChoice Ethiopia Logo" 
+            style={{ width: '48px', height: '48px', objectFit: 'contain', filter: 'drop-shadow(0 2px 6px rgba(0,0,0,0.3))' }} 
+          />
           <div className="brand-text-block">
             <span className="brand-primary-name">MYCHOICE</span>
-            <span className="brand-tagline">AGRICULTURE &amp; COMMODITIES</span>
+            <span className="brand-tagline">ETHIOPIA ENTERPRISE</span>
           </div>
         </Link>
 

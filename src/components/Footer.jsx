@@ -9,8 +9,12 @@ export default function Footer() {
         
         {/* Brand Column */}
         <div className="footer-brand-col">
-          <div className="footer-logo-wrap">
-            <Compass size={22} className="footer-compass" />
+          <div className="footer-logo-wrap" style={{ display: 'flex', alignItems: 'center', gap: '0.85rem' }}>
+            <img 
+              src="/logo.png" 
+              alt="MyChoice Ethiopia Logo" 
+              style={{ width: '42px', height: '42px', objectFit: 'contain' }} 
+            />
             <span className="footer-brand-title">MYCHOICE ETHIOPIA</span>
           </div>
           <p className="footer-brand-p">
