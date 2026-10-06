@@ -19,6 +19,8 @@ import {
 export default function Home() {
   // Flag: Expeditions and Corporate Fleet are preserved in codebase but hidden from UI for now
   const SHOW_FLEET_AND_TOURS = false;
+  // Flag: Vision, Goals, and Objectives section hidden from UI per user request
+  const SHOW_VISION_AND_GOALS = false;
 
   const objectivesList = [
     'Expansion of Agriculture production and sustainable local crop supply.',
@@ -180,79 +182,81 @@ export default function Home() {
       </section>
 
       {/* ========================================================= */}
-      {/* 3. OUR VISION, OUR GOALS & OUR OBJECTIVES SECTION         */}
+      {/* 3. OUR VISION, OUR GOALS & OUR OBJECTIVES SECTION (HIDDEN)*/}
       {/* ========================================================= */}
-      <section className="vision-goals-section">
-        <div className="trail-container">
-          <div className="vg-header-block">
-            <span className="gold-script-tag">Guiding Principles &amp; Ethos</span>
-            <h2 className="section-main-heading">OUR VISION, GOALS &amp; OBJECTIVES</h2>
-            <p className="section-sub-text">
-              Building one of the most reliable and distinguished enterprises in East Africa while upholding our green environmental commitments and community social responsibilities.
-            </p>
+      {SHOW_VISION_AND_GOALS && (
+        <section className="vision-goals-section">
+          <div className="trail-container">
+            <div className="vg-header-block">
+              <span className="gold-script-tag">Guiding Principles &amp; Ethos</span>
+              <h2 className="section-main-heading">OUR VISION, GOALS &amp; OBJECTIVES</h2>
+              <p className="section-sub-text">
+                Building one of the most reliable and distinguished enterprises in East Africa while upholding our green environmental commitments and community social responsibilities.
+              </p>
+            </div>
+
+            <div className="vg-cards-grid">
+              
+              {/* Card 1: Our Vision */}
+              <div className="vg-card-item">
+                <div className="vg-card-top">
+                  <div className="vg-icon-box">
+                    <Eye size={22} />
+                  </div>
+                  <span className="vg-pill">STRATEGIC HORIZON</span>
+                </div>
+                <h3 className="vg-title">OUR VISION</h3>
+                <p className="vg-desc">
+                  My Choice Ethiopia Tour is a preferred company for customers in Ethiopia and foreign companies, individuals as well as other entities.
+                </p>
+                <p className="vg-desc" style={{ marginTop: '0.5rem' }}>
+                  Our company to become pioneer and world class comprehensive vehicle rent and tourism service provider and earn the admiration of investors, customers, employees, government and community at large. And our company has a vision through to be one of the biggest, reliable and attractive companies in East Africa and to offer a superior world class quality service especially in Ethiopia.
+                </p>
+              </div>
+
+              {/* Card 2: Our Goals */}
+              <div className="vg-card-item">
+                <div className="vg-card-top">
+                  <div className="vg-icon-box">
+                    <Target size={22} />
+                  </div>
+                  <span className="vg-pill green">SUSTAINABILITY</span>
+                </div>
+                <h3 className="vg-title">OUR GOALS</h3>
+                <p className="vg-desc">
+                  We set our goals knowing that we are capable of achieving them by adopting the program of giving emphasis to the green environment commitments. The concern that we have regarding our environment is deeper into our operations so as to benefit our fragile ecology and the society taking into account our social responsibilities.
+                </p>
+                <p className="vg-desc" style={{ marginTop: '0.5rem' }}>
+                  We are putting our effort into improving the wellbeing and safety of our employees, maintain the highest international standards, and we value working with like-minded partners to reduce negative environmental impacts on our environment and to promote our operational sustainability.
+                </p>
+              </div>
+
+              {/* Card 3: Our Objectives */}
+              <div className="vg-card-item">
+                <div className="vg-card-top">
+                  <div className="vg-icon-box">
+                    <CheckCircle2 size={22} />
+                  </div>
+                  <span className="vg-pill gold">CORE PILLARS</span>
+                </div>
+                <h3 className="vg-title">OUR OBJECTIVES</h3>
+                <ul className="vg-objectives-list">
+                  {objectivesList.map((obj, i) => (
+                    <li key={i}>
+                      <span className="vg-bullet">✓</span>
+                      <span>{obj}</span>
+                    </li>
+                  ))}
+                </ul>
+                <div style={{ marginTop: '1.25rem', paddingTop: '1rem', borderTop: '1px solid #EAE2D2', fontSize: '11.5px', color: '#566573' }}>
+                  Promoting customer value, local community benefits, and environmental harmony.
+                </div>
+              </div>
+
+            </div>
           </div>
-
-          <div className="vg-cards-grid">
-            
-            {/* Card 1: Our Vision */}
-            <div className="vg-card-item">
-              <div className="vg-card-top">
-                <div className="vg-icon-box">
-                  <Eye size={22} />
-                </div>
-                <span className="vg-pill">STRATEGIC HORIZON</span>
-              </div>
-              <h3 className="vg-title">OUR VISION</h3>
-              <p className="vg-desc">
-                My Choice Ethiopia Tour is a preferred company for customers in Ethiopia and foreign companies, individuals as well as other entities.
-              </p>
-              <p className="vg-desc" style={{ marginTop: '0.5rem' }}>
-                Our company to become pioneer and world class comprehensive vehicle rent and tourism service provider and earn the admiration of investors, customers, employees, government and community at large. And our company has a vision through to be one of the biggest, reliable and attractive companies in East Africa and to offer a superior world class quality service especially in Ethiopia.
-              </p>
-            </div>
-
-            {/* Card 2: Our Goals */}
-            <div className="vg-card-item">
-              <div className="vg-card-top">
-                <div className="vg-icon-box">
-                  <Target size={22} />
-                </div>
-                <span className="vg-pill green">SUSTAINABILITY</span>
-              </div>
-              <h3 className="vg-title">OUR GOALS</h3>
-              <p className="vg-desc">
-                We set our goals knowing that we are capable of achieving them by adopting the program of giving emphasis to the green environment commitments. The concern that we have regarding our environment is deeper into our operations so as to benefit our fragile ecology and the society taking into account our social responsibilities.
-              </p>
-              <p className="vg-desc" style={{ marginTop: '0.5rem' }}>
-                We are putting our effort into improving the wellbeing and safety of our employees, maintain the highest international standards, and we value working with like-minded partners to reduce negative environmental impacts on our environment and to promote our operational sustainability.
-              </p>
-            </div>
-
-            {/* Card 3: Our Objectives */}
-            <div className="vg-card-item">
-              <div className="vg-card-top">
-                <div className="vg-icon-box">
-                  <CheckCircle2 size={22} />
-                </div>
-                <span className="vg-pill gold">CORE PILLARS</span>
-              </div>
-              <h3 className="vg-title">OUR OBJECTIVES</h3>
-              <ul className="vg-objectives-list">
-                {objectivesList.map((obj, i) => (
-                  <li key={i}>
-                    <span className="vg-bullet">✓</span>
-                    <span>{obj}</span>
-                  </li>
-                ))}
-              </ul>
-              <div style={{ marginTop: '1.25rem', paddingTop: '1rem', borderTop: '1px solid #EAE2D2', fontSize: '11.5px', color: '#566573' }}>
-                Promoting customer value, local community benefits, and environmental harmony.
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </section>
+        </section>
+      )}
 
 
       {/* ========================================================= */}
