@@ -1,0 +1,11 @@
+# Robots.txt for MyChoice Ethiopia
+User-agent: *
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+Sitemap: https://www.mychoiceethiopia.com/sitemap.xml
